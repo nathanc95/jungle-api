@@ -1,0 +1,30 @@
+{
+  "name": "Ride",
+  "plural": "rides",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "zone": {
+      "type": "Zone"
+    },
+    "name": {
+      "type": "string"
+    },
+    "remaining_tickets": {
+      "type": "number"
+    },
+    "return_time": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

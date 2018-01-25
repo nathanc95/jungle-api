@@ -34,5 +34,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Product": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Ticket": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Ride": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Zone": {
+    "dataSource": "db",
+    "public": true
   }
 }
