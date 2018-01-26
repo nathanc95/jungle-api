@@ -1,0 +1,29 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 1,
+    "Ticket": 3,
+    "Ride": 2,
+    "Zone": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {},
+    "Ticket": {
+      "1": "{\"ride\":{\"zone\":{\"name\":\"nathan\",\"color\":\"orange\"},\"name\":\"string\",\"remaining_tickets\":22,\"return_time\":\"tzest\"},\"access_code\":\"test\",\"return_time\":\"test\",\"id\":1}",
+      "2": "{\"id\":2}"
+    },
+    "Ride": {
+      "1": "{\"zone\":{\"id\":0,\"name\":\"test\",\"color\":\"test\"},\"name\":\"test\",\"remaining_tickets\":5,\"return_time\":\"string\",\"id\":1}"
+    },
+    "Zone": {}
+  }
+}
